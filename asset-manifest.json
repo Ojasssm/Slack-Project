@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/slack-clone/static/css/main.5bd3a5b6.css",
-    "main.js": "/slack-clone/static/js/main.98e34649.js",
-    "static/js/787.dd933357.chunk.js": "/slack-clone/static/js/787.dd933357.chunk.js",
-    "index.html": "/slack-clone/index.html",
-    "main.5bd3a5b6.css.map": "/slack-clone/static/css/main.5bd3a5b6.css.map",
-    "main.98e34649.js.map": "/slack-clone/static/js/main.98e34649.js.map",
-    "787.dd933357.chunk.js.map": "/slack-clone/static/js/787.dd933357.chunk.js.map"
+    "main.css": "/SlackProject/static/css/main.5bd3a5b6.css",
+    "main.js": "/SlackProject/static/js/main.f8242b67.js",
+    "static/js/787.dd933357.chunk.js": "/SlackProject/static/js/787.dd933357.chunk.js",
+    "index.html": "/SlackProject/index.html",
+    "main.5bd3a5b6.css.map": "/SlackProject/static/css/main.5bd3a5b6.css.map",
+    "main.f8242b67.js.map": "/SlackProject/static/js/main.f8242b67.js.map",
+    "787.dd933357.chunk.js.map": "/SlackProject/static/js/787.dd933357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bd3a5b6.css",
-    "static/js/main.98e34649.js"
+    "static/js/main.f8242b67.js"
   ]
 }
