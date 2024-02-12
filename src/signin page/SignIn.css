@@ -1,0 +1,102 @@
+
+.left p:nth-child(1) {
+    width: 197px;
+    /* height: 42px; */
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153.125%; /* 36.75px */
+    letter-spacing: 0.96px;
+}
+.left p:nth-child(2) {
+    width: 197px;
+    height: 42px;
+    flex-shrink: 0;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.125%; 
+    letter-spacing: 0.96px;
+    text-decoration: underline;
+}
+.left p:nth-child(2) a{
+    color: black;
+}
+.signin-content {
+    height: 33vw;
+    width: 35vw;
+    position: absolute;
+    top: 11vw;
+    left: 34vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-content h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.signin-content-p1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.125%; /* 36.75px */
+    letter-spacing: 0.96px;
+    margin-top: 0.6vw;
+}
+.signin-btn{
+    width: 450px;
+    height: 50px;
+    border-radius: 9px;
+    border: 2px solid #c3c2c2;
+    background: white;
+    box-shadow: 4px 4px 11.9px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 1vw;
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.signin-btn1{
+    margin-top: 3vw;
+    background: #FEBE30;
+}
+.signin-btn2{
+    border-radius: 4px;
+}
+.signin-content-p2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 1.5vw 0;
+}
+.signin-content-input {
+    width: 430px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: #D9D9D9;
+    box-shadow: 4px 4px 11.9px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 1vw;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

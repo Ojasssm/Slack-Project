@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    /* background-color: rgb(95, 95, 243); */
+    font-family: Quicksand;
+    background-image: url('C:\Users\oajsm\OneDrive\Desktop\slack-project\slack-project\public\images\space.png');
+    background-size: cover; 
+    background-position: center center;
+    height: 100vh;
+    z-index: 1;
+}
+body::after{
+    content: '';
+    background-image: url('C:\Users\oajsm\OneDrive\Desktop\slack-project\slack-project\public\images\FloatingRobot.png');
+    background-position: 10vw 10vw;
+    background-size: cover;
+    z-index: 2;
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    width: 80vw;
+    margin: 1vw auto;
+    justify-content: space-between;
+    padding-top: 0.5vw;
+    
+}
+
+.logo {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0.5vw;
+}
+
+
+
+
+.navbar-functions {
+    display: flex;
+}
+
+.navbar-functions img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+}
+
+.sign-in {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1.4vw;
+    margin-right: 3vw;
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    width: 128px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1.2vw 0;
+}
+.btn1{
+    color: white;
+    background-color: #31304D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.herosec-left {
+    width: 40vw;
+    height: 25vw;
+    margin-left: 10vw;
+    position: absolute;
+    top: 10vw;
+    right: 10vw;
+}
+
+
+
+.herosec-left h1:nth-child(1) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.herosec-left h1:nth-child(2) {
+    color: #FFB409;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0.1vw 0;
+}
+
+.p1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140.125%;
+    letter-spacing: 1.12px;
+    width: 666px;
+    margin-top: 4vw;
+}
+
+.sec1-btns {
+    margin-top: 4vw;
+}
+
+.sec1-btn1 {
+    width: 300px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #31304D;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.sec1-btn2 {
+    width: 300px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FEBE30;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1.3vw;
+    border: none;
+}
+
+.p2 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.125%;
+    /* 42.875px */
+    letter-spacing: 1.12px;
+    width: 666px;
+    position: absolute;
+    bottom: 2vw;
+    left: 33vw;
+}
