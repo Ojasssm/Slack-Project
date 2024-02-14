@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
     /* background-color: rgb(95, 95, 243); */
     font-family: Quicksand;
-    background-image: url('C:\Users\oajsm\OneDrive\Desktop\slack-project\slack-project\public\images\space.png');
+    background-image: url('/public/images/space.png');
     background-size: cover; 
     background-position: center center;
     height: 100vh;
@@ -14,7 +14,7 @@ body{
 }
 body::after{
     content: '';
-    background-image: url('C:\Users\oajsm\OneDrive\Desktop\slack-project\slack-project\public\images\FloatingRobot.png');
+    background-image: url('/public/images/FloatingRobot.png');
     background-position: 10vw 10vw;
     background-size: cover;
     z-index: 2;
